@@ -134,3 +134,30 @@ section {
     color: var(--coolGray50);
     font-weight: normal;
 }
+
+.social-link-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 200px;
+    margin: 1rem 0;
+}
+
+a {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+.social-link-a {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+.social-link-bar .social-link-item {
+    display: flex;
+    flex-direction: row;
+    height: 1.3rem;
+    width: 1.3rem;
+    opacity: 0.6;
+    filter: brightness(0) invert(1);
+    transition: opacity 0.25s ease;
+}
