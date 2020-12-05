@@ -62,3 +62,6 @@ section {
     color: var(--coolGray50);
     transition: color 0.25s ease-in;
 }
+.nav-logo:hover {
+    color: var(--coolGray400);
+}
