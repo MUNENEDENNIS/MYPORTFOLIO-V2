@@ -65,3 +65,25 @@ section {
 .nav-logo:hover {
     color: var(--coolGray400);
 }
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav-item {
+    display: flex;
+    margin-left: 2rem;
+    text-decoration: none;
+    color: var(--coolGray50);
+    transition: color 0.25s ease-in;
+}
+
+.nav-item:hover {
+    color: var(--coolGray400);
+}
+
+.nav-menu .active {
+    font-weight: bold;
+    font-size: 1rem;
+}
