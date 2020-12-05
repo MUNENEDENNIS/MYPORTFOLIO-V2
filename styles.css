@@ -97,3 +97,40 @@ section {
     padding: 5rem 0;
     min-height: 70vh;
 }
+.hero .hero-image {
+    max-height: 160px;
+    max-width: 160px;
+    border-radius: 100%;
+    margin: 1rem 0;
+}
+
+.hero .hero-title {
+    color: var(--coolGray300);
+    text-align: center;
+    max-width: 400px;
+    line-height: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+.hero .hero-heading {
+    color: var(--coolGray50);
+    text-align: center;
+    font-size: 2rem;
+    margin: 0rem 0;
+    max-width: 500px;
+}
+
+.hero .hero-subheading {
+    color: var(--coolGray400);
+    text-align: center;
+    max-width: 400px;
+    line-height: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.text-highlight {
+    color: var(--coolGray50);
+    font-weight: normal;
+}
