@@ -34,3 +34,23 @@ body {
   max-width: 1200px;
   padding: 0 2rem;
 }
+section {
+    margin: auto;
+}
+/* @media (max-width: 1200px){
+  .container{
+    max-width: 90vw;
+  }
+} */
+
+
+/** navigation **/
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0rem;
+    color: var(--coolGray50);
+}
