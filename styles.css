@@ -54,3 +54,11 @@ section {
     padding: 2rem 0rem;
     color: var(--coolGray50);
 }
+.nav-logo {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-right: auto;
+    text-decoration: none;
+    color: var(--coolGray50);
+    transition: color 0.25s ease-in;
+}
