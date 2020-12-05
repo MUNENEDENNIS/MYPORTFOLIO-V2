@@ -161,3 +161,6 @@ a {
     filter: brightness(0) invert(1);
     transition: opacity 0.25s ease;
 }
+.social-link-item:hover {
+    opacity: 1;
+}
