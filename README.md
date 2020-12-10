@@ -2,7 +2,7 @@
 #### This is a project of my second and upgraded portfolio
 #### By **Dennis Munene**
 ## Description
-This portfolio gives information on myself, some of my projects and a blog on my experiences in coding so far
+This portfolio gives information on myself, some of my projects and a blog on my experiences in coding so far put together through only HTML and CSS
 ## Technologies Used
 HTML
 CSS
